@@ -1,1 +1,24 @@
-This is a first text file for GIT learning.
+#### GIT Global Configuration
+git config --global --user.name "Tushar Chhabra"
+git config --global user.email "tchhabra.ptc.com"
+git config --list
+git config user.name
+ls -la
+
+
+#####Initializing Project as Master Folder
+git init
+
+####Adding file to GIT Project
+git add .
+
+####Commiting the file- this will create a snapshot of current file before comitting
+git commit -m "Message you want to set along with commit"
+
+#### Getting Commit details
+git log
+git log --author="Tushar Chhabra"
+
+####Status of your location
+git status
+
