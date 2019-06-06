@@ -20,9 +20,13 @@ git log --author="Tushar Chhabra"
 ####Status of your location
 git status
 
-###Create Repository in GitHub###
+###Create Repository in GitHub and Sync with Local/Staging Directory###
 git remote add origin "https://github.com/Tushar-DevOps/devops-course.git"
 
 git push -u origin master
-
 Enter github usrname and password in the pop-up window
+
+### Clone Repository###
+Craete a new Directory in your local and CD to that directory then enter belowcommand to clone
+
+git clone https://github.com/Tushar-DevOps/devops-course.git
