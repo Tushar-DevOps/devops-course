@@ -1,6 +1,6 @@
 #### GIT Global Configuration
 git config --global --user.name "Tushar Chhabra"
-git config --global user.email "tchhabra.ptc.com"
+git config --global user.email "tusharchhabra93@gmail.com"
 git config --list
 git config user.name
 ls -la
