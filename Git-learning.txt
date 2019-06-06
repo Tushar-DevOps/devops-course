@@ -1,8 +1,7 @@
 #### GIT Global Configuration
-git config --global --user.name "Tushar Chhabra"
-git config --global user.email "tusharchhabra93@gmail.com"
 git config --list
 git config user.name
+git config user.email
 ls -la
 
 #####Initializing Project as Master Folder
@@ -21,3 +20,9 @@ git log --author="Tushar Chhabra"
 ####Status of your location
 git status
 
+###Create Repository in GitHub###
+git remote add origin "https://github.com/Tushar-DevOps/devops-course.git"
+
+git push -u origin master
+
+Enter github usrname and password in the pop-up window
